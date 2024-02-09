@@ -20,13 +20,16 @@
                 <input class="form-control" id="passwordLength" type="number">
                 <label for="password" class="text-uppercase fw-bold">Password: </label>
                 <div class="input-container">
-                    <input class="form-control password-input" type="password" placeholder="Password" id="password">
+                    <input class="form-control password-input" type="password" placeholder="Password" id="password"
+                        disabled>
                     <span class="eye-icon">
                         <i class="fa fa-eye" aria-hidden="true" id="eye" onclick="eyeToggle()"></i>
                     </span>
                 </div>
-                <button class="btn btn-dark text-uppercase fw-bold btn-lg mt-3">Generet Password</button>
-                <button class="btn btn-success text-uppercase fw-bold btn-lg mt-3">Save Password</button>
+                <button class="btn btn-dark text-uppercase fw-bold btn-lg mt-3" onclick="getPassword()">Generate
+                    Password</button>
+                <a class="btn btn-success text-uppercase fw-bold btn-lg mt-3" onclick="savePassword()"
+                    id="saveButton">Save Password</a>
             </div>
         </div>
     </div>
