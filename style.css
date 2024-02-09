@@ -1,0 +1,31 @@
+.input-container {
+    position: relative;
+}
+
+.password-input {
+    padding-right: 30px
+}
+
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* .eye-icon-show {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+} */
+
+/* .fa-eye {
+    color: #7a797e;
+} */
